@@ -1,0 +1,180 @@
+--Made By pd.legendary#7357 + pd.mythical LOL which is also pd.legendary#7357--
+local ScreenGui = Instance.new("ScreenGui")
+local LegendarysHub = Instance.new("Frame")
+local main = Instance.new("TextButton")
+local player = Instance.new("TextButton")
+local title = Instance.new("TextLabel")
+local stats = Instance.new("TextButton")
+local extra = Instance.new("TextButton")
+local credits = Instance.new("TextButton")
+local pages = Instance.new("TextLabel")
+local version = Instance.new("TextLabel")
+local updates = Instance.new("TextLabel")
+local weekly = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+LegendarysHub.Name = "LegendarysHub"
+LegendarysHub.Parent = ScreenGui
+LegendarysHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LegendarysHub.Position = UDim2.new(0.321603924, 0, 0.476073623, 0)
+LegendarysHub.Size = UDim2.new(0, 339, 0, 235)
+LegendarysHub.Visible = true
+LegendarysHub.Active = true
+LegendarysHub.Draggable = true
+
+main.Name = "main"
+main.Parent = LegendarysHub
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.586510241, 0, 0.187391162, 0)
+main.Size = UDim2.new(0, 140, 0, 32)
+main.Font = Enum.Font.GothamBold
+main.Text = "Main"
+main.TextColor3 = Color3.fromRGB(255, 255, 255)
+main.TextScaled = true
+main.TextSize = 14.000
+main.TextWrapped = true
+main.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Legendaryisonfire/LegendarysHubOPPP/main/MainforLegendarysHubOPPPP'),true))()
+end)
+
+player.Name = "player"
+player.Parent = LegendarysHub
+player.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+player.BorderColor3 = Color3.fromRGB(0, 0, 0)
+player.Position = UDim2.new(0.586510301, 0, 0.350638211, 0)
+player.Size = UDim2.new(0, 140, 0, 32)
+player.Font = Enum.Font.GothamBold
+player.Text = "Player"
+player.TextColor3 = Color3.fromRGB(255, 255, 255)
+player.TextScaled = true
+player.TextSize = 14.000
+player.TextWrapped = true
+player.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Legendaryisonfire/player/main/playersectionLegendarysHub'),true))()
+    end)
+
+title.Name = "title"
+title.Parent = LegendarysHub
+title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.Position = UDim2.new(0.0029498525, 0, 0.161574349, 0)
+title.Size = UDim2.new(0, 176, 0, 50)
+title.Font = Enum.Font.GothamBold
+title.Text = "LegendarysHub"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+stats.Name = "stats"
+stats.Parent = LegendarysHub
+stats.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+stats.BorderColor3 = Color3.fromRGB(0, 0, 0)
+stats.Position = UDim2.new(0.586510241, 0, 0.517519295, 0)
+stats.Size = UDim2.new(0, 140, 0, 32)
+stats.Font = Enum.Font.GothamBold
+stats.Text = "Stats"
+stats.TextColor3 = Color3.fromRGB(255, 255, 255)
+stats.TextScaled = true
+stats.TextSize = 14.000
+stats.TextWrapped = true
+
+extra.Name = "extra"
+extra.Parent = LegendarysHub
+extra.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+extra.BorderColor3 = Color3.fromRGB(0, 0, 0)
+extra.Position = UDim2.new(0.586510241, 0, 0.688524902, 0)
+extra.Size = UDim2.new(0, 140, 0, 32)
+extra.Font = Enum.Font.GothamBold
+extra.Text = "Extra"
+extra.TextColor3 = Color3.fromRGB(255, 255, 255)
+extra.TextScaled = true
+extra.TextSize = 14.000
+extra.TextWrapped = true
+
+credits.Name = "credits"
+credits.Parent = LegendarysHub
+credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+credits.Position = UDim2.new(0.586510301, 0, 0.859792292, 0)
+credits.Size = UDim2.new(0, 140, 0, 32)
+credits.Font = Enum.Font.GothamBold
+credits.Text = "Credits"
+credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+credits.TextScaled = true
+credits.TextSize = 14.000
+credits.TextWrapped = true
+
+pages.Name = "pages"
+pages.Parent = LegendarysHub
+pages.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pages.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pages.Position = UDim2.new(0.586441815, 0, -0.000127777457, 0)
+pages.Size = UDim2.new(0, 140, 0, 38)
+pages.Font = Enum.Font.GothamBold
+pages.Text = "Pages"
+pages.TextColor3 = Color3.fromRGB(255, 255, 255)
+pages.TextScaled = true
+pages.TextSize = 14.000
+pages.TextWrapped = true
+
+version.Name = "version"
+version.Parent = LegendarysHub
+version.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+version.BorderColor3 = Color3.fromRGB(0, 0, 0)
+version.Position = UDim2.new(-0.000641139224, 0, 0.391361594, 0)
+version.Size = UDim2.new(0, 177, 0, 50)
+version.Font = Enum.Font.GothamBold
+version.Text = "V1.0.0"
+version.TextColor3 = Color3.fromRGB(255, 255, 255)
+version.TextScaled = true
+version.TextSize = 14.000
+version.TextWrapped = true
+
+updates.Name = "updates"
+updates.Parent = LegendarysHub
+updates.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+updates.BorderColor3 = Color3.fromRGB(0, 0, 0)
+updates.Position = UDim2.new(0.0029498525, 0, 0.570084989, 0)
+updates.Size = UDim2.new(0, 177, 0, 50)
+updates.Font = Enum.Font.GothamBold
+updates.Text = "Auto Updates"
+updates.TextColor3 = Color3.fromRGB(255, 255, 255)
+updates.TextScaled = true
+updates.TextSize = 14.000
+updates.TextWrapped = true
+
+weekly.Name = "weekly"
+weekly.Parent = LegendarysHub
+weekly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+weekly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+weekly.Position = UDim2.new(0, 0, 0.782850921, 0)
+weekly.Size = UDim2.new(0, 177, 0, 50)
+weekly.Font = Enum.Font.GothamBold
+weekly.Text = "Weekly Updates"
+weekly.TextColor3 = Color3.fromRGB(255, 255, 255)
+weekly.TextScaled = true
+weekly.TextSize = 14.000
+weekly.TextWrapped = true
+
+close.Name = "close"
+close.Parent = LegendarysHub
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.Position = UDim2.new(0.0029498525, 0, 0, 0)
+close.Size = UDim2.new(0, 97, 0, 37)
+close.Font = Enum.Font.GothamBold
+close.Text = "Close"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextScaled = true
+close.TextSize = 15.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+	LegendarysHub.Visible = false
+end)
